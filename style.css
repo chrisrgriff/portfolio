@@ -1,0 +1,63 @@
+* {
+  font-family: 'roboto'; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'roboto';
+  font-weight: 900;
+}
+
+p {
+  font-family: 'nunito';
+  font-weight: 400;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-brand {
+  font-family: 'roboto';
+  font-weight: 900;
+  letter-spacing: .25px;
+}
+
+.navbar img {
+  background: #ffc107;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.jumbotron {
+  background: transparent;
+}
+
+span.type {
+  content: '|';
+  font-family: 'roboto';
+  font-weight: 900;
+}
+
+.typed-cursor{
+  color: #ffc107;
+}
+
+/*Custom cursor animation*/
+
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
