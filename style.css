@@ -4,16 +4,46 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'roboto';
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 p {
-  font-family: 'nunito';
+  font-family: 'EB Garamond';
+  font-size: 1.5rem !important;
   font-weight: 400;
 }
 
+p a {
+  font-family: 'EB Garamond';
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  text-decoration: none;
+  color: #343a40;
+  border-bottom: solid 3px #ffc107;
+}
+
+p a:hover {
+  font-family: 'EB Garamond';
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  text-decoration: none;
+  color: #343a40;
+  border-bottom: solid 3px #d29e03;
+  transition: color .15s ease-in-out;
+}
+
+p a:visit {
+  font-family: 'EB Garamond';
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  text-decoration: none;
+  color: #343a40;
+  border-bottom: solid 3px #ffc107;
+}
+
+
 .navbar {
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-brand {
@@ -42,6 +72,13 @@ span.type {
   color: #ffc107;
 }
 
+/*.list-group-item.active {
+    z-index: 2;
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}*/
+
 /*Custom cursor animation*/
 
 @keyframes blink{
@@ -60,4 +97,11 @@ span.type {
   0% { opacity:1; }
   50% { opacity:0; }
   100% { opacity:1; }
+}
+
+
+@media (max-width: 992px) { 
+  ul.navbar-nav {
+    display: none;
+  }
 }

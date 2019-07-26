@@ -8,7 +8,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Roboto:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <title>Christopher Griffith: UX Designer, Developer, & Strategist</title>
@@ -17,15 +18,11 @@
 <body>
 
   <!-- NAV -->
-  <nav class="navbar navbar-expand-lg navbar-light mx-5 my-5">
-    <a class="navbar-brand" href="/">
-      <img src="linegraph.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Christopher Griffith
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top px-4 py-4">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="img/linegraph.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Christopher Griffith
+      </a>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="/process">Process</a>
@@ -52,28 +49,116 @@
   <!-- END NAV -->
 
   <!-- HERO -->
-  <div class="jumbotron jumbotron-fluid mx-0 my-0 py-0 px-5">
-    <div class="row py-5 px-3">
-      <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
-        <h1 class="display-2 text-left"><span class="type"></span></h1>
-        <p class="lead text-left">Christopher Griffith is an experienced jack of all trades from Wilmington, Delaware with a demonstrated history in SaaS and ecommerce. He offers a unique blend of creative, technical, and analytical skills, and uses design thinking and user centered design principles to solve challenging business problems.</p>
-        <button class="btn btn-lg btn-warning my-2" type="submit">Let's talk &rarr;</button>
-      </div>
-      <div class="col-md-5">
-        <img src="desk-3.svg" class="img-fluid">
+  <div class="jumbotron jumbotron-fluid mx-0">
+    <div class="container">
+      <div class="row justify-content-md-center mt-5 py-5">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-left">
+          <h1 class="display-2"><span class="type"></span></h1>
+          <p class="lead">Christopher Griffith is an experienced jack of all trades from Wilmington, Delaware with a demonstrated history in SaaS and ecommerce. He offers a unique blend of creative, technical, and analytical skills, and uses <a href="/process">design thinking</a> and user centered design principles to solve <a href="/work">challenging business problems</a>.</p>
+          <button class="btn btn-lg btn-warning my-2" type="submit">Let's talk &rarr;</button>
+        </div>
       </div>
     </div>
   </div>
   <!-- END HERO -->
 
-  <!-- FOOTER -->
-  <!-- END FOOTER -->
+  <!-- PROCESS -->
+  <div class="process-section" style="background: #ffc107; color: #fff">
+    <div class="container py-5">
+      <div class="row justify-content-md-center">
+        <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12" style="margin-top: -75px;">
+          <img src="img/process-1.svg" class="img-fluid" style="transform: rotate(-10deg);">
+        </div>
+        <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 text-left py-5">
+          <h2 class="display-4" style="color: #343a40;">Design Thinking</h1>
+          <p class="lead" style="color: #343a40;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <p class="lead" style="color: #343a40;">Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <button class="btn btn-md btn-outline-dark my-2" type="submit">A process that yields results &rarr;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END PROCESS -->
+
+  <!-- WORK -->
+  <div class="process-section py-5" style="background: #f2f2f2;">
+    <div class="container py-5">
+      <div class="row">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="https://placehold.it/1200x1200" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://placehold.it/1200x1200" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Information Architecture</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://placehold.it/1200x1200" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Information Architecture</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END WORK -->
+
+
+
+
+  <!--TAB
+  <div class="row">
+    <div class="col-4">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">UX Design</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">User Research</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Information Architecture</a>
+        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">One</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Two</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Three</a>
+        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Four</a>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+          
+        </div>
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+            <h3 class="display-5">Media heading</h5>
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+            <button class="btn btn-sm btn-dark my-2" type="submit">CTA →</button>
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+          
+        </div>
+        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"></div>
+      </div>
+    </div>
+  </div>-->
+
+
+
 
   <!-- TYPED.JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function(){
       Typed.new('.type', {
-        strings: ["Digital Marketer", "UXer", "Researcher", "Strategist", "Problem Solver"],
+        strings: ["Business Strategist", "Digital Marketer", "UX Designer", "User Researcher", "Problem Solver"],
         stringsElement: null,
         typeSpeed: 60,
         startDelay: 0,
