@@ -72,12 +72,12 @@ span.type {
   color: #ffc107;
 }
 
-/*.list-group-item.active {
+.list-group-item.active {
     z-index: 2;
     color: #212529;
     background-color: #ffc107;
     border-color: #ffc107;
-}*/
+}
 
 /*Custom cursor animation*/
 
