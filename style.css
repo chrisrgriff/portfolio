@@ -58,6 +58,10 @@ p a:visit {
   color: #343a40;
 }
 
+footer .navbar-brand {
+  margin-right: 0px;
+}
+
 .navbar img, footer a.navbar-brand img {
   background: #ffc107;
   padding: 2px;
