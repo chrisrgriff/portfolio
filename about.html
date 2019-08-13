@@ -5,72 +5,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 
-  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Roboto:400,700,900&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700&display=swap" rel="stylesheet">
 
   <title>Christopher Griffith: UX Designer, Developer, & Strategist</title>
-
-
-  <style>
-    * { font-family: 'roboto'; }
-    h1, h2, h3, h4, h5, h6 {
-      font-family: 'roboto';
-      font-weight: 900;
-    }
-
-    span.type {
-      content: '|';
-      display: inline;
-    }
-    .typed-cursor{
-      color: #ffc107;
-    }
-    /*Custom cursor animation*/
-    @keyframes blink{
-      0% { opacity:1; }
-      50% { opacity:0; }
-      100% { opacity:1; }
-    }
-    @-webkit-keyframes blink{
-      0% { opacity:1; }
-      50% { opacity:0; }
-      100% { opacity:1; }
-    }
-    @-moz-keyframes blink{
-      0% { opacity:1; }
-      50% { opacity:0; }
-      100% { opacity:1; }
-    }
-
-  </style>
 
 </head>
 <body>
 
   <!-- NAV -->
-  <nav class="navbar navbar-expand-lg navbar-light mx-5 my-5" style="background: rgba(255, 255, 255, 0.75);">
-    <a class="navbar-brand" href="#" style="font-family: 'roboto'; font-weight: 900; letter-spacing: .25px;">
-      <img src="linegraph.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="" style="background: #ffc107; padding: 2px; border-radius: 2px;">Christopher Griffith
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top px-4 py-4">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="img/linegraph.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Christopher Griffith
+      </a>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="/process">Process</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Work
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/work/research">Research</a>
-            <a class="dropdown-item" href="/work/design">Design</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="/work">Work</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/about">About</a>
@@ -79,32 +40,44 @@
           <a class="nav-link" href="/resume.pdf" target="_blank">Resume</a>
         </li>
       </ul>
-      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Let's talk &rarr;</button>
+      <a href="mailto:chrisrgriff@gmail.com" class="btn btn-outline-warning my-2 my-sm-0" role="button">Let's talk &rarr;</a>
     </div>
   </nav>
   <!-- END NAV -->
 
   <!-- HERO -->
-  <div class="jumbotron jumbotron-fluid ml-5 mr-5 pl-3 pr-3 pt-0 pb-0" style="background: transparent;">
-
-    <div class="row pt-5 pb-5">
-      <div class="col-md-4">
-        <img src="c+t.jpg" class="img-fluid">
-      </div>
-      <div class="col-md-8">
-        <h2 class="display-4" style="font-weight: 900;">Christopher Griffith</h2>
-        <p class="lead" style="font-family: 'nunito'; font-weight: 400;">Christopher lives in Wilmington, Delaware with his wife and daughter. He enjoys the outdoors, podcasts, sports, music, and spending time with his family.</p>
+  <div class="jumbotron jumbotron-fluid mx-0">
+    <div class="container">
+      <div class="row justify-content-md-center mt-5 py-5">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 text-left mb-5">
+          <img src="img/chris.jpg" class="img-fluid">
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 text-left">
+          <h1 class="display-4">About Christopher</h1>
+          <p class="lead">Christopher lives in Wilmington, Delaware with his wife and daughter. He enjoys the outdoors, podcasts, sports, music, and spending time with his family.</p>
+          <p class="lead">This site was built from scratch using the <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> framework, <a href="https://undraw.co/" target="_blank">unDraw</a> illustrations, <a href="https://mattboldt.com/demos/typed-js/" target="_blank">Typed.js</a>, and is hosted via <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+          <a href="mailto:chrisrgriff@gmail.com" class="btn btn-lg btn-warning my-2 mr-2" role="button">Let's talk &rarr;</a>  <a href="https://linkedin.com/in/griffithchristopher" class="btn btn-lg btn-dark my-2" role="button" target="_blank">LinkedIn &rarr;</a>
+        </div>
       </div>
     </div>
-
   </div>
   <!-- END HERO -->
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <footer class="container-fluid py-5">
+    <div class="row">
+      <div class="col-12 col-md text-center">
+        <a class="navbar-brand" href="/"><img src="img/linegraph.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Christopher Griffith</a>
+        <small class="d-block text-muted">© 2019</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
+  <script src="typed.js"></script>
 
 </body>
 </html>
