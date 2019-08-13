@@ -49,6 +49,7 @@ p a:visit {
 
 .navbar {
   background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 10px -2px rgba(52, 58, 64, .25);
 }
 
 .navbar-brand, footer .navbar-brand {
