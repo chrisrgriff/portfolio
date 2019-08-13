@@ -2,6 +2,11 @@
   font-family: 'roboto'; 
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'roboto';
   font-weight: 900 !important;
@@ -46,13 +51,14 @@ p a:visit {
   background: rgba(255, 255, 255, 0.9);
 }
 
-.navbar-brand {
+.navbar-brand, footer .navbar-brand {
   font-family: 'roboto';
   font-weight: 900;
   letter-spacing: .25px;
+  color: #343a40;
 }
 
-.navbar img {
+.navbar img, footer a.navbar-brand img {
   background: #ffc107;
   padding: 2px;
   border-radius: 2px;
@@ -78,6 +84,16 @@ span.type {
     background-color: #ffc107;
     border-color: #ffc107;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f2f2f2;
+}
+
 
 /*Custom cursor animation*/
 
