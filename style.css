@@ -90,6 +90,18 @@ span.type {
     border-color: #ffc107;
 }
 
+.carousel-caption {
+  color: #212529;
+}
+
+.carousel-inner img {
+  margin-bottom: 100px;
+}
+
+.carousel-indicators li {
+  background-color: #212529;
+}
+
 footer {
   background-color: #ffffff;
 }
